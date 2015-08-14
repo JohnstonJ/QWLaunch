@@ -13,6 +13,43 @@ render itself at the standard 100% scaling setting.  Then, Windows will upscale
 the image to your chosen scaling setting.  The result works well at the cost of
 blurry text and images.
 
+## Screenshots ##
+
+These screenshots were taken with Quicken 2014 on Windows 10.  The screen
+resolution was 2560x1440 pixels and the DPI was set to 175% of normal (i.e.
+168 DPI).
+
+**Quicken 2014 Home screen, before using QWLaunch:**
+
+Notice the following problems, among many others:
+
+* The **Customize** button in the upper-left corner is cropped.
+* The **Stay On Top of Monthly Bills** section is severely distorted.
+* The budget is completely unintelligible.
+* The menu bar has a weird "ghost" area underneath it.
+* Numerous items appear to be too small and weren't properly grown in size.
+
+![](img/Home-qw.png)
+
+**Quicken 2014 Home screen, running with QWLaunch:**
+
+![](img/Home-QWLaunch.png)
+
+**Quicken 2014 Spending screen, before using QWLaunch:**
+
+Notice the following problems, among many others:
+
+* The pie chart is too small.
+* The spending amounts to the right of the pie chart are microscopic.
+* The labels to the left of the pie chart are cropped.
+* Numerous items that should have been grown in size, but weren't.
+
+![](img/Spending-qw.png)
+
+**Quicken 2014 Spending screen, running with QWLaunch:**
+
+![](img/Spending-QWLaunch.png)
+
 ## Required Build Tools ##
 
 * Visual C#® 2010 or newer (Express versions work fine).  You should target the
