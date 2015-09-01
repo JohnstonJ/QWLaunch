@@ -16,7 +16,8 @@ namespace QWLaunch {
 				Assembly asm = Assembly.Load("qw");
 				Type t = asm.GetType("QuickenWindow.Program");
 				MethodInfo m = t.GetMethod("Main", BindingFlags.NonPublic | BindingFlags.Static);
-				return (int)m.Invoke(null, null);
+				m.Invoke(null, null);
+				return 0;
 			} catch (Exception ex) {
 				MessageBox(IntPtr.Zero, ex.ToString(), "QWLaunch error", 0);
 				return 1;
